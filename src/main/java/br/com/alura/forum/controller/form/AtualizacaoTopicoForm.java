@@ -15,7 +15,9 @@ public class AtualizacaoTopicoForm {
     @NotEmpty
     @Length(min = 5)
     private String titulo;
-    @NotNull @NotEmpty @Length(min = 10)
+    @NotNull
+    @NotEmpty
+    @Length(min = 10)
     private String mensagem;
 
     public String getTitulo() {
